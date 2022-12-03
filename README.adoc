@@ -1,4 +1,4 @@
-= SoccerBet
+= soccerdex
 
 == soccerdex API
 Documentation de l’API : https://www.soccerdex.com/api.php +
