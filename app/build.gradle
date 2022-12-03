@@ -51,15 +51,15 @@ dependencies {
     implementation("io.insert-koin:koin-core:$koin_version")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-    testImplementation ("io.insert-koin:koin-test:$koin_version")
+    testImplementation("io.insert-koin:koin-test:$koin_version")
     testImplementation("io.insert-koin:koin-test-junit4:$koin_version")
-    testImplementation ("ch.qos.logback:logback-classic:$logback_version")
+    testImplementation("ch.qos.logback:logback-classic:$logback_version")
 
-    implementation "androidx.cardview:cardview:$cardview_version"
+    implementation("androidx.cardview:cardview:$cardview_version")
 
-    implementation "com.google.android.material:material:$material_version"
-    implementation "androidx.constraintlayout:constraintlayout:$constraint_layout_version"
-    androidTestImplementation "androidx.test.ext:junit:$androidx_junit_version"
-    testImplementation "org.mockito.kotlin:mockito-kotlin:$mockito_kotlin_version"
-    androidTestImplementation "org.mockito.kotlin:mockito-kotlin:$mockito_kotlin_version"
+    implementation("com.google.android.material:material:$material_version")
+    implementation("androidx.constraintlayout:constraintlayout:$constraint_layout_version")
+    androidTestImplementation("androidx.test.ext:junit:$androidx_junit_version")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:$mockito_kotlin_version")
+    androidTestImplementation("org.mockito.kotlin:mockito-kotlin:$mockito_kotlin_version")
 }
