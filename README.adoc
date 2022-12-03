@@ -14,13 +14,13 @@
 * retrieve a team and show its details
 
 == soccerdex API
-Documentation de l’API : https://www.soccerdex.com/api.php +
+Documentation of the API : https://www.soccerdex.com/api.php +
 API Key: 50130162 +
-API 1 : API pour récupérer la liste des ligues disponibles :
+API 1 : API get all available soccer leagues:
 https://www.soccerdex.com/api/v1/json/50130162/all_leagues.php +
-API 2 : API pour construire la liste des équipes d’une league:
+API 2 : API to build the list of soccer teams:
 https://www.soccerdex.com/api/v1/json/50130162/search_all_teams.php?l=French%20Ligue%201 +
-API 3 : API pour récupérer le détail d’une équipe
+API 3 : API to retrieve the details of teams:
 https://www.soccerdex.com/api/v1/json/50130162/searchteams.php?t=Paris%20SG
 
 
