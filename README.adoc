@@ -8,7 +8,8 @@
     *and* the other teams containing the letters motif. +
 
 * list of teams
-*when* I select a league from list of teams autocompleted by the SearchView component appears in the
+    *when* I select a league from list of teams autocompleted by the SearchView component appears in the
+
 == Display team details
 * retrieve a team and show its details
 
