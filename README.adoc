@@ -1,0 +1,11 @@
+= SoccerBet
+
+== soccerdex API
+Documentation de l’API : https://www.soccerdex.com/api.php +
+API Key: 50130162 +
+API 1 : API pour récupérer la liste des ligues disponibles :
+https://www.soccerdex.com/api/v1/json/50130162/all_leagues.php +
+API 2 : API pour construire la liste des équipes d’une league:
+https://www.soccerdex.com/api/v1/json/50130162/search_all_teams.php?l=French%20Ligue%201 +
+API 3 : API pour récupérer le détail d’une équipe
+https://www.soccerdex.com/api/v1/json/50130162/searchteams.php?t=Paris%20SG
