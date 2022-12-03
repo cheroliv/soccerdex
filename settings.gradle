@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "soccerdex"
 include ':app'
-include ':domain'
