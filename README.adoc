@@ -1,5 +1,17 @@
 = soccerdex
 
+== HomePage
+* search bar completion: +
+    *when* I type a letter inside the SearchView component +
+    *Then* list of team containing the letters appears +
+    *and* the teams starting with the letters motif first, +
+    *and* the other teams containing the letters motif.
+
+* list of teams
+*when* I select a league from list of teams autocompleted by the SearchView component appears in the
+== Display team details
+* retrieve a team and show its details
+
 == soccerdex API
 Documentation de l’API : https://www.soccerdex.com/api.php +
 API Key: 50130162 +
@@ -9,3 +21,5 @@ API 2 : API pour construire la liste des équipes d’une league:
 https://www.soccerdex.com/api/v1/json/50130162/search_all_teams.php?l=French%20Ligue%201 +
 API 3 : API pour récupérer le détail d’une équipe
 https://www.soccerdex.com/api/v1/json/50130162/searchteams.php?t=Paris%20SG
+
+

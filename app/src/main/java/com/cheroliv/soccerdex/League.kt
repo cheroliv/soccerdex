@@ -8,12 +8,3 @@ data class League(
     val strSport: String,
     val strLeagueAlternate: String,
 )
-
-const val leagueSample = """
-     {
-            "idLeague": "4328",
-            "strLeague": "English Premier League",
-            "strSport": "Soccer",
-            "strLeagueAlternate": "Premier League"
-        }
-"""
