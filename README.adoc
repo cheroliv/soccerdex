@@ -5,7 +5,7 @@
     *when* I type a letter inside the SearchView component +
     *Then* list of team containing the letters appears +
     *and* the teams starting with the letters motif first, +
-    *and* the other teams containing the letters motif.
+    *and* the other teams containing the letters motif. +
 
 * list of teams
 *when* I select a league from list of teams autocompleted by the SearchView component appears in the
