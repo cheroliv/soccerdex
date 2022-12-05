@@ -1,26 +1,40 @@
 = soccerdex
 
-== HomePage
+== Users stories
+
+=== HomePage
+
 * search bar completion: +
+    *Given* the list of leagues from the API +
     *when* I type a letter inside the SearchView component +
     *Then* list of team containing the letters appears +
     *and* the teams starting with the letters motif first, +
     *and* the other teams containing the letters motif. +
 
-* list of teams
-    *when* I select a league from list of teams autocompleted by the SearchView component appears in the
 
-== Display team details
-* retrieve a team and show its details
+* list of teams: +
+    *Given* the chosen league from the list of leagues of the API +
+    *when* I select a league from the list of teams autocompleted by the SearchView component +
+    *then* appears in the listview component the list of teams from this league. +
 
-== soccerdex API
-Documentation of the API : https://www.soccerdex.com/api.php[Site Oxiane] +
+
+=== Display team details
+
+* retrieve a team and show its details +
+    *Given* the list of team identifier from this league +
+    *when* I select a team in teams view +
+    *then* appears the selected team details +
+
+
+
+== Data
+
+=== web datasource: soccerdex REST-API
+Documentation of the API : https://www.thesportsdb.com/api.php[thesportsdb.com API] +
 API Key: 50130162 +
 API 1 : API get all available soccer leagues:
-https://www.soccerdex.com/api/v1/json/50130162/all_leagues.php[Site Oxiane] +
+https://www.thesportsdb.com/api/v1/json/50130162/all_leagues.php[all_leagues] +
 API 2 : API to build the list of soccer teams:
-https://www.soccerdex.com/api/v1/json/50130162/search_all_teams.php?l=French%20Ligue%201[Site Oxiane] +
+https://www.thesportsdb.com/api/v1/json/50130162/search_all_teams.php?l=French%20Ligue%201[search_all_teams] +
 API 3 : API to retrieve the details of teams:
-https://www.soccerdex.com/api/v1/json/50130162/searchteams.php?t=Paris%20SG[Site Oxiane]
-
-
+https://www.thesportsdb.com/api/v1/json/50130162/searchteams.php?t=Paris%20SG[searchteams]
